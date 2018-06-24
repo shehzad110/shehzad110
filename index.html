@@ -1,26 +1,4 @@
-<!DOCTYPE html>
-<html>
-<head>
-<meta charset="ISO-8859-1">
-<title>Insert title here</title>
-</head>
-<body>
-
-
-<p>You are seeing the timer clock</p>
-<p id="demo">Time will display here!</p>
-
-<script>
-setInterval(timer,1000);
-
-function timer(){
-	var d= new Date();
-document.getElementById("demo").innerHTML= d.toLocaleTimeString();
-	
-}
-
-
-</script>
-
-</body>
-</html>
+<form action="UploadFile" method="post" enctype="multipart/form-data">
+Select File:<input type="file" name="fname"/><br/>
+<input type="image" src="MainUpload.png"/>
+</form>
